@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f8ede1;
+}
+
+input:checked ~ .price-card {
+  @apply border-orange;
+}
+
+input {
+  @apply bg-sand border-2 border-white py-2 rounded-lg block w-full placeholder:text-darkblue placeholder:capitalize pl-3 xl:border-4;
+}
+
+.hero {
+  background-image: url("../images/hero-mobile.png");
+  background-size: cover;
+}
+
+@media screen(md) {
+  .hero {
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: top;
+  }
+}
+
+@media screen(xl) {
+  .hero {
+    background-image: url("../images/hero-big.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 90%;
+    background-position-y: top;
+  }
+}
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middel,
+.hamburger-bottom {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: white;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middel {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middel {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}

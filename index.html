@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/script.js" defer></script>
+    <title>Det Maritime hus | Bønnerup strand</title>
+  </head>
+  <body class="text-darkblue ">
+    <!-- Hero section -->
+    <section class="hero relative">
+      <!-- wave bg nav -->
+      <div class="absolute -top-10 left-0 z-0 md:hidden">
+        <svg
+          class="h-64 w-full"
+          xmlns="http://www.w3.org/2000/svg"
+          width="927.354"
+          height="383.669"
+          viewBox="0 0 927.354 383.669"
+        >
+          <g
+            id="Group_18"
+            data-name="Group 18"
+            transform="translate(1.354 0.098)"
+          >
+            <path
+              id="Path_37"
+              data-name="Path 37"
+              d="M12657-346h-927.354V37.571s228.791-7.854,399.4-200.9S12657-346,12657-346Z"
+              transform="translate(-11731 346)"
+              fill="#fff"
+            />
+            <path
+              id="Path_38"
+              data-name="Path 38"
+              d="M12607.035-346.015h-877.39v326.07s216.464-6.677,377.884-170.786S12607.035-346.015,12607.035-346.015Z"
+              transform="translate(-11729.646 346.098)"
+              fill="#f8ede1"
+            />
+          </g>
+        </svg>
+      </div>
+      <!-- Hero container -->
+      <div
+        class="xl-hero container max-w-6xl mx-auto md:h-2/3 xl:h-[75vh] xl:bg-[center_top_1rem] relative"
+      >
+        <!-- Menu / logo container -->
+        <nav class="flex items-center justify-between text-darkblue px-6 py-12">
+          <!-- logo -->
+          <img src="images/logo.png" alt="" class="h-20 z-10" />
+          <!-- Menu -->
+          <div class="hidden h-10 md:flex md:space-x-8">
+            <a href="/om.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+              >Om DHM</a
+            >
+
+            <a href="/Priser.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+              >Priser</a
+            >
+
+            <a href="/activities.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+              >Aktiviteter</a
+            >
+
+            <a href="/shop.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+              >Shop</a
+            >
+
+            <a href="/kontakt.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+              >Kontakt</a
+            >
+            
+            <a href="https://www.facebook.com/Boennerup.Strand" target="_blank"
+              ><svg
+                class="fill-white hover:fill-orange"
+                xmlns="http://www.w3.org/2000/svg"
+                width="45.259"
+                height="45.078"
+                viewBox="0 0 45.259 45.078"
+              >
+                <path
+                  id="facebook-svgrepo-com"
+                  d="M24.63,2.04A22.682,22.682,0,0,0,21.1,47.118V31.278H15.351V24.715H21.1v-5c0-5.68,3.372-8.8,8.554-8.8a35.475,35.475,0,0,1,5.046.43v5.59H31.849c-2.806,0-3.689,1.742-3.689,3.53v4.254h6.291l-1.018,6.563H28.16V47.118A22.682,22.682,0,0,0,24.63,2.04Z"
+                  transform="translate(-2 -2.04)"
+                /></svg
+            ></a>
+          </div>
+          <!-- Hamburger button -->
+          <div class="md:hidden">
+            <button
+              class="z-40 block hamburger md:hidden focus:outline-none"
+              id="menu-btn"
+              type="button"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middel"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+        <!-- Mobile menu -->
+        <div
+          id="menu"
+          class="absolute top-0 bottom-0 left-0 flex-col self-end hidden w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg uppercase bg-darkblue bg-opacity-70"
+        >
+          <a href="om.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+            >Om DHM</a
+          >
+
+          <a href="/Priser.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+            >Priser</a
+          >
+
+          <a href="/activities.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+            >Aktiviteter</a
+          >
+
+          <a href="/shop.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+            >Shop</a
+          >
+
+          <a href="kontakt.html" class="bg-white px-4 py-2 rounded-full hover:bg-orange"
+            >Kontakt</a
+          >
+         
+          <a href="https://www.facebook.com/Boennerup.Strand" target="_blank"
+            ><svg
+              class="fill-white hover:fill-orange"
+              xmlns="http://www.w3.org/2000/svg"
+              width="45.259"
+              height="45.078"
+              viewBox="0 0 45.259 45.078"
+            >
+              <path
+                id="facebook-svgrepo-com"
+                d="M24.63,2.04A22.682,22.682,0,0,0,21.1,47.118V31.278H15.351V24.715H21.1v-5c0-5.68,3.372-8.8,8.554-8.8a35.475,35.475,0,0,1,5.046.43v5.59H31.849c-2.806,0-3.689,1.742-3.689,3.53v4.254h6.291l-1.018,6.563H28.16V47.118A22.682,22.682,0,0,0,24.63,2.04Z"
+                transform="translate(-2 -2.04)"
+              /></svg
+          ></a>
+        </div>
+
+        <div
+          class="max-w-xl mt-20 mb-32 p-4 font-sans text-white md:text-darkblue md:p-10 md:m-6 md:mx-0"
+        >
+
+        
+          <p class="text-3xl">Velkommen til</p>
+          <h1 class="text-6xl mb-10 font-Mar">Det Maritime Hus</h1>
+          <p>
+            Det maritime hus i Bønnerup Strand er en bygning beliggende i den
+            lille havneby Bønnerup Strand på Djursland i Danmark. Bygningen
+            fungerer som et center for lokale maritime aktiviteter, herunder
+            bådejere, lokale og turister.
+          </p>
+        </div>
+      </div>
+      <div class="md:hidden">
+        <svg
+          class="w-full h-full"
+          xmlns="http://www.w3.org/2000/svg"
+          width="918.37"
+          height="270.062"
+          viewBox="0 0 918.37 270.062"
+        >
+          <g
+            id="Group_19"
+            data-name="Group 19"
+            transform="translate(0.37 -1081.892)"
+          >
+            <path
+              id="Path_35"
+              data-name="Path 35"
+              d="M12651.52,735.892V977.71l-918.369,9.117V977.71s361.048,13.792,590.009-106.977S12651.52,735.892,12651.52,735.892Z"
+              transform="translate(-11733.521 346)"
+              fill="#fff"
+            />
+            <path
+              id="Path_36"
+              data-name="Path 36"
+              d="M12641,735.892V987.953h-918.369V964.263s367.377,28.235,593.737-93S12641,735.892,12641,735.892Z"
+              transform="translate(-11723 364)"
+              fill="#f8ede1"
+            />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Activity section -->
+    <section class=" mx-6 mt-12">
+      <!-- Activity contianer -->
+      <div class="bg-white max-w-lg md:max-w-6xl mx-auto p-6 rounded-70">
+        <h2 class="text-darkblue font-Mar text-3xl my-6 xl:text-4xl">
+          Aktiviteter
+        </h2>
+        <!-- Activity card container -->
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-3 >
+          <!-- card 1 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-kajak.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 2 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-paddle.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 3 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-sejlads.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 4 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-kajak.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 5 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-sejlads.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 6 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-sejlads.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 7 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-sejlads.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 8 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-sejlads.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- card 9 -->
+          <a href="/enkelAktivitet.html">
+            <div class="bg-darkblue rounded-70">
+              <!-- Image -->
+              <div class="relative overflow-hidden rounded-3">
+                <!-- Image and overlay -->
+                <div class="relative group">
+                  <!-- overlay -->
+                  <div
+                    class="absolute top-0 left-0 w-full h-full bg-lightblue z-10 opacity-40"
+                  ></div>
+                  <img
+                    class="aspect-square transition-transform group-hover:scale-105"
+                    src="images/aktivitet-sejlads.jpg"
+                  />
+                </div>
+
+                <h3
+                  class="absolute z-20 text-white bottom-6 p-6 text-3xl font-bold"
+                >
+                  Kajak
+                </h3>
+              </div>
+              <!-- Card text -->
+              <div class="bg-darkblue rounded-b-70 px-6 pt-6 pb-14 text-white">
+                <p>
+                  Dette er en kort tekst om kajak. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sit suscipit voluptates magnam.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class=" max-w-lg md:max-w-6xl mx-auto">
+      <!-- reservation container -->
+      <div class="m-6 rounded-70 bg-white">
+        <img src="images/reserveringUdstyr.png" class="rounded-t-70" />
+        <!-- Text container -->
+        <div
+          class="p-6 pb-12 flex flex-col md:space-x-12 justify-between md:flex-row"
+        >
+          <div>
+            <h2 class="text-2xl text-darkblue font-Mar">Reserver udstyr</h2>
+            <p class="text-darkblue">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <a
+            href="#"
+            class="bg-orange text-white py-4 w-full text-center rounded-full mt-6 font-bold md:max-w-sm hover:scale-105"
+            >Reserver</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing section -->
+    <section class=" max-w-lg md:max-w-6xl mx-auto">
+      <!-- Card container -->
+      <div
+        class="bg-white rounded-70 mx-6 grid grid-cols-1 md:grid-cols-3 lg:gap-6 lg:bg-transparent"
+      >
+        <h3 class="font-Mar text-3xl px-6 py-12 md:hidden">Medlemskab</h3>
+        <!-- Price card 1 -->
+        <div
+          class="flex flex-col items-center py-12 mx-6 lg:mx-0 lg:bg-white lg:rounded-3 lg:px-12"
+        >
+          <div class="flex flex-col items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="80"
+              viewBox="0 0 189.777 141.791"
+            >
+              <g
+                id="people-audience-svgrepo-com"
+                transform="translate(-1.5 -3.5)"
+              >
+                <path
+                  id="Path_15"
+                  data-name="Path 15"
+                  d="M34.41,23.946a9.964,9.964,0,1,0,9.964,9.964A9.964,9.964,0,0,0,34.41,23.946ZM9.5,33.91A24.91,24.91,0,1,1,34.41,58.82,24.91,24.91,0,0,1,9.5,33.91Z"
+                  transform="translate(61.978 34.969)"
+                  fill="#1a2c55"
+                />
+                <path
+                  id="Path_16"
+                  data-name="Path 16"
+                  d="M27.91,24.031A9.964,9.964,0,1,0,37.874,34,9.964,9.964,0,0,0,27.91,24.031ZM3,34a24.91,24.91,0,1,1,24.91,24.91A24.91,24.91,0,0,1,3,34Z"
+                  transform="translate(13.446 35.509)"
+                  fill="#1a2c55"
+                />
+                <path
+                  id="Path_17"
+                  data-name="Path 17"
+                  d="M31.16,18.446a9.964,9.964,0,1,0,9.964,9.964A9.964,9.964,0,0,0,31.16,18.446ZM6.25,28.41A24.91,24.91,0,1,1,31.16,53.32,24.91,24.91,0,0,1,6.25,28.41Z"
+                  transform="translate(36.8 0)"
+                  fill="#1a2c55"
+                />
+                <path
+                  id="Path_18"
+                  data-name="Path 18"
+                  d="M37.66,18.446a9.964,9.964,0,1,0,9.964,9.964A9.964,9.964,0,0,0,37.66,18.446ZM12.75,28.41A24.91,24.91,0,1,1,37.66,53.32,24.91,24.91,0,0,1,12.75,28.41Z"
+                  transform="translate(87.157 0)"
+                  fill="#1a2c55"
+                />
+                <path
+                  id="Path_19"
+                  data-name="Path 19"
+                  d="M40.91,24.031A9.964,9.964,0,1,0,50.874,34,9.964,9.964,0,0,0,40.91,24.031ZM16,34a24.91,24.91,0,1,1,24.91,24.91A24.91,24.91,0,0,1,16,34Z"
+                  transform="translate(110.511 35.509)"
+                  fill="#1a2c55"
+                />
+                <path
+                  id="Path_20"
+                  data-name="Path 20"
+                  d="M57.98,15.5A17.368,17.368,0,0,0,56.3,22.973v7.473H16.446v2.448c0,.068.011.212.03.423a16.421,16.421,0,0,0,.3,1.931,18.366,18.366,0,0,0,2.5,6.075c2.524,3.889,8.12,9.05,22.023,9.05,7.581,0,12.7-1.524,16.206-3.539a43.176,43.176,0,0,0,5.641,13.032q.219.336.444.67C57.924,63.47,50.615,65.32,41.306,65.32c-18.431,0-29-7.294-34.56-15.86A33.321,33.321,0,0,1,2.174,38.409,31.374,31.374,0,0,1,1.6,34.7c-.044-.471-.067-.861-.08-1.158-.006-.148-.01-.274-.012-.375l0-.134V22.973A7.473,7.473,0,0,1,8.973,15.5Z"
+                  transform="translate(0 74.988)"
+                  fill="#1a2c55"
+                />
+                <path
+                  id="Path_21"
+                  data-name="Path 21"
+                  d="M16.266,60.547C21.922,63.474,29.2,65.32,38.478,65.32c18.47,0,29.066-7.286,34.642-15.851a33.271,33.271,0,0,0,4.587-11.055,31.358,31.358,0,0,0,.581-3.715c.044-.471.068-.862.081-1.159.006-.148.01-.274.012-.376l0-.133V22.973A7.474,7.474,0,0,0,70.911,15.5H21.9a17.427,17.427,0,0,1,1.683,7.473v7.473H63.438v2.447c0,.068-.011.212-.03.422a16.476,16.476,0,0,1-.306,1.929,18.346,18.346,0,0,1-2.507,6.07c-2.533,3.89-8.154,9.059-22.116,9.059-7.532,0-12.625-1.515-16.114-3.521A43.116,43.116,0,0,1,16.7,59.888Q16.489,60.219,16.266,60.547Z"
+                  transform="translate(112.893 74.988)"
+                  fill="#1a2c55"
+                />
+                <path
+                  id="Path_22"
+                  data-name="Path 22"
+                  d="M8,22.973A7.473,7.473,0,0,1,15.473,15.5H80.239a7.474,7.474,0,0,1,7.473,7.473V37.919c0-2.491-.013.214,0,0v.1l0,.133c0,.1-.006.227-.012.376-.013.3-.037.688-.081,1.159a31.358,31.358,0,0,1-.581,3.715,33.271,33.271,0,0,1-4.587,11.055C76.872,63.016,66.276,70.3,47.806,70.3c-18.43,0-29-7.294-34.56-15.86A33.322,33.322,0,0,1,8.674,43.391,31.373,31.373,0,0,1,8.1,39.68c-.044-.471-.067-.861-.08-1.158-.006-.148-.01-.274-.012-.375l0-.134V22.973Zm14.946,7.473v7.43c0,.068.011.212.03.423a16.448,16.448,0,0,0,.305,1.931,18.367,18.367,0,0,0,2.5,6.075c2.524,3.889,8.12,9.05,22.023,9.05,13.963,0,19.583-5.169,22.116-9.059a18.346,18.346,0,0,0,2.507-6.07,16.477,16.477,0,0,0,.306-1.929c.019-.21.027-.355.03-.422V30.446Z"
+                  transform="translate(48.532 74.988)"
+                  fill="#1a2c55"
+                />
+              </g>
+            </svg>
+
+            <p class="p-4">Familie</p>
+            <h2 class="text-3xl font-Mar">750 kr./år</h2>
+            <p class=" text-center">(2 voksne og 3 børn/unge u.25år)</p>
+          </div>
+
+          <a
+            href="#"
+            class="bg-orange text-white py-4 w-full text-center rounded-full m-6 font-bold md:max-w-sm hover:scale-105"
+            >Tilmeld</a
+          >
+        </div>
+
+        <!-- price card 2 -->
+        <div
+          class="flex flex-col items-center py-12 mx-6 lg:mx-0 lg:bg-white lg:rounded-3 lg:px-12"
+        >
+          <div class="flex flex-col items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              viewBox="0 0 113.432 141.791"
+            >
+              <g
+                id="_-System-Icons"
+                data-name="🔍-System-Icons"
+                transform="translate(-8 -4)"
+              >
+                <g id="ic_fluent_person_48_regular" transform="translate(8 4)">
+                  <path
+                    id="_-Color"
+                    data-name="🎨-Color"
+                    d="M106.368,89.074a15.062,15.062,0,0,1,15.047,14.331l.017.73V106.8c0,13.312-6.883,23.278-17.441,29.706-10.382,6.321-24.338,9.287-39.275,9.287s-28.893-2.966-39.275-9.287C15.2,130.271,8.421,120.711,8.019,108L8,106.8v-2.662A15.062,15.062,0,0,1,22.335,89.092l.73-.017Zm0,8.862h-83.3a6.2,6.2,0,0,0-6.182,5.691l-.021.508V106.8c0,9.728,4.822,17.044,13.187,22.136,8.541,5.2,20.728,7.994,34.667,7.994s26.126-2.794,34.667-7.994c8.067-4.911,12.838-11.888,13.169-21.1l.018-1.033v-2.663a6.2,6.2,0,0,0-5.694-6.179ZM64.716,4A35.448,35.448,0,1,1,29.269,39.448,35.448,35.448,0,0,1,64.716,4Zm0,8.862A26.586,26.586,0,1,0,91.3,39.448,26.586,26.586,0,0,0,64.716,12.862Z"
+                    transform="translate(-8 -4)"
+                    fill="#182b51"
+                  />
+                </g>
+              </g>
+            </svg>
+
+            <p class="p-4">Enkelt medlemsskab</p>
+            <h2 class="text-3xl font-Mar">350 kr./år</h2>
+            <p>1 person</p>
+          </div>
+          <a
+            href="#"
+            class="bg-orange text-white py-4 w-full text-center rounded-full m-6 font-bold md:max-w-sm hover:scale-105"
+            >Tilmeld</a
+          >
+        </div>
+
+        <!-- price card 3 -->
+        <div
+          class="flex flex-col items-center py-12 mx-6 lg:mx-0 lg:bg-white lg:rounded-3 lg:px-12"
+        >
+          <div class="flex flex-col items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              viewBox="0 0 108.961 129.743"
+            >
+              <g
+                id="_-System-Icons"
+                data-name="🔍-System-Icons"
+                transform="translate(-4 -3.001)"
+              >
+                <g
+                  id="ic_fluent_home_28_regular"
+                  transform="translate(4 3.001)"
+                >
+                  <path
+                    id="_-Color"
+                    data-name="🎨-Color"
+                    d="M50.809,5.921a11.538,11.538,0,0,1,15.343,0L108.374,42.6a13.71,13.71,0,0,1,4.587,10.35v66.529c0,7.329-5.488,13.27-12.258,13.27H84.359c-6.77,0-12.258-5.941-12.258-13.27V84.088a4.265,4.265,0,0,0-4.086-4.423H48.946a4.265,4.265,0,0,0-4.086,4.423v35.386c0,7.329-5.488,13.27-12.258,13.27H16.258C9.488,132.744,4,126.8,4,119.474V52.945A13.709,13.709,0,0,1,8.587,42.6Zm10.229,6.9a3.846,3.846,0,0,0-5.115,0L13.7,49.5a4.57,4.57,0,0,0-1.529,3.45v66.529a4.265,4.265,0,0,0,4.086,4.423H32.6a4.265,4.265,0,0,0,4.086-4.423V84.088c0-7.329,5.488-13.27,12.258-13.27H68.015c6.77,0,12.258,5.941,12.258,13.27v35.386a4.265,4.265,0,0,0,4.086,4.423H100.7a4.265,4.265,0,0,0,4.086-4.423V52.945a4.57,4.57,0,0,0-1.529-3.45Z"
+                    transform="translate(-4 -3.001)"
+                    fill="#1a2e55"
+                  />
+                </g>
+              </g>
+            </svg>
+
+            <p class="p-4">Sommerbolig</p>
+            <h2 class="text-3xl font-Mar">750 kr./år</h2>
+            <p>5 personer</p>
+          </div>
+
+          <a
+            href="#"
+            class="bg-orange text-white py-4 w-full text-center rounded-full m-6 font-bold md:max-w-sm hover:scale-105"
+            >Tilmeld</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class=" overflow-hidden">
+      <!-- wave -->
+      <svg
+        class="wave"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1933.576"
+        height="257.795"
+        viewBox="0 0 1933.576 257.795"
+      >
+        <g
+          id="Group_7"
+          data-name="Group 7"
+          transform="translate(13.576 -4983.953)"
+        >
+          <path
+            id="Path_13"
+            data-name="Path 13"
+            d="M1990,2051s326.538-96,844.837,0,1088.74-101.8,1088.74-101.8v194.324H1990Z"
+            transform="translate(-2003.576 3034.748)"
+            fill="#fff"
+          />
+          <path
+            id="Path_12"
+            data-name="Path 12"
+            d="M1990,2065.082s326.538-109.278,844.836,0S3923.576,1949.2,3923.576,1949.2v221.206H1990Z"
+            transform="translate(-2003.576 3071.337)"
+            fill="#192d54"
+          />
+        </g>
+      </svg>
+      <div class=" bg-darkblue">
+      <!-- Footer container -->
+      <div class=" text-white flex justify-between p-6 max-w-6xl mx-auto  xl:px-0">
+        <!-- Adress container -->
+        <div>
+          <p class=" font-bold">Adresse:</p>
+          <address>
+            Vestre Mole 28D <br />
+            8585 Glesborg
+          </address>
+
+          <p class=" font-bold pt-6">Mail:</p>
+          <a
+            href="mailto:
+          detmaritimehus@gmail.com"
+            >detmaritimehus@gmail.com</a
+          >
+
+          <a href="#">
+            <svg
+              class="fill-white"
+              xmlns="http://www.w3.org/2000/svg"
+              width="45.259"
+              height="45.078"
+              viewBox="0 0 45.259 45.078"
+            >
+              <path
+                id="facebook-svgrepo-com"
+                d="M24.63,2.04A22.682,22.682,0,0,0,21.1,47.118V31.278H15.351V24.715H21.1v-5c0-5.68,3.372-8.8,8.554-8.8a35.475,35.475,0,0,1,5.046.43v5.59H31.849c-2.806,0-3.689,1.742-3.689,3.53v4.254h6.291l-1.018,6.563H28.16V47.118A22.682,22.682,0,0,0,24.63,2.04Z"
+                transform="translate(-2 -2.04)"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- Link Container -->
+        <div class="flex flex-col space-y-2">
+          <a href="#">Kontakt</a>
+          <a href="#">Aktiviteter</a>
+          <a href="#">Priser</a>
+          <a href="#">Bestyrelsen</a>
+          <a href="#">Reservering</a><a href="#">Medlems login</a>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto text-center py-6   text-white">
+        <p>
+          Det Maritime Hus | Vestre Mole 28D | 8585 Glesborg | Djurslands Bank
+          reg7320 konto1834543 - MobilePay 35916
+        </p>
+      </div>
+    </div>
+    </footer>
+  </body>
+</html>
